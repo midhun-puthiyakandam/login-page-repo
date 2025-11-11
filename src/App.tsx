@@ -6,6 +6,15 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-primary-50 to-secondary-50 flex flex-col items-center justify-center p-4">
       <div className="max-w-md w-full mx-auto">
+        {/* Page Header */}
+        <div className="text-center mb-8">
+          <h1 className={`${bayerSansClasses.heading.h1} text-primary-700 mb-2`}>
+            Bayer Portal
+          </h1>
+          <p className="text-gray-600 text-lg">
+            Secure access to your account
+          </p>
+        </div>
         <div className="bg-white rounded-xl shadow-xl overflow-hidden">
           {/* Header with Brand */}
           <div className="p-6 bg-primary-600 text-white text-center">
